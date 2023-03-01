@@ -66,11 +66,15 @@ section:first-child {
     color: #777;
 }
 
-/* Lista Task */
+/* Lista General */
 h2{
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
+}
+
+#Tasklist{
+    margin-top: 20px;
 }
 
 .freccia{
@@ -78,17 +82,13 @@ h2{
     vertical-align: middle;
 }
 
-#Tasklist ul {
-    list-style: none;
-    margin-bottom: 25px;
-}
 
-#Tasklist li{
+li{
     font-size: 20px;
 }
 
 .cerchio{
-border: 1px solid;
+border: 2px solid;
 border-radius: 50%;
 display: inline-block;
 text-align: center;
@@ -104,9 +104,35 @@ font-size: 15px;
     border-radius: 12px;
     padding: 8px 15px;
     font-size: 12px;
+    color: white;
 }
 
 .blue{
     background-color: #47adf1;
     color: white;
+}
+
+ul{
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.purple{
+    background-color: #9c72e4;
+    color: white;
+}
+
+.cross{
+    font-size: 8px;
+    color: red;
+    border-color: red;
+}
+
+.green{
+    background-color: #64c0a9;
+    color: white;
+}
+
+.orng{
+    background-color: orange;
 }
