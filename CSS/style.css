@@ -66,3 +66,47 @@ section:first-child {
     color: #777;
 }
 
+/* Lista Task */
+h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.freccia{
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+#Tasklist ul {
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+#Tasklist li{
+    font-size: 20px;
+}
+
+.cerchio{
+border: 1px solid;
+border-radius: 50%;
+display: inline-block;
+text-align: center;
+vertical-align: middle;
+width: 22px;
+height: 22px;
+border-color: #69c3ae;
+color: #69c3ae;
+font-size: 15px;
+}
+
+.tag{
+    border-radius: 12px;
+    padding: 8px 15px;
+    font-size: 12px;
+}
+
+.blue{
+    background-color: #47adf1;
+    color: white;
+}
